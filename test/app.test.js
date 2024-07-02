@@ -89,7 +89,7 @@ describe('Section 3', () => {
         let valeurEuro = 100;
         let valeurUSD = 120;
 
-        expect(myApp.fromEuroToJapanYen(valeurEuro)).toEqual(valeurUSD);
+        expect(myApp.fromEuroToDollar(valeurEuro)).toEqual(valeurUSD);
     });
 });
 afterAll(() => {
