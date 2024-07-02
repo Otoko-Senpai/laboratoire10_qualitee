@@ -11,7 +11,7 @@ function getRandomInt(max) {
 test('adds 2 integer and the result is valid', () => {
     let number1 = getRandomInt(4);
     let number2 = getRandomInt(2);
-    let total = sum(number1, number2);
+    let total = sum(number1, number2 +1);
 
     expect(total).toBe(number1 + number2);
 });
